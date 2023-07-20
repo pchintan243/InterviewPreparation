@@ -7,10 +7,6 @@ int gcd(int a, int b)
     {
         return 0;
     }
-    if (a == 1 || b == 1)
-    {
-        return 1;
-    }
     if (a == b)
     {
         return a;
@@ -27,7 +23,7 @@ int gcd(int a, int b)
 
 int main()
 {
-    int num = gcd(12, 24);
+    int num = gcd(1, 24);
     cout << num;
     return 0;
 }
